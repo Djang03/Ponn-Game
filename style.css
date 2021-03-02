@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background-color: rgb(41, 77, 6);
+}
+
+#pong {
+  background-color: black;
+  width: 900px;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#Stickone {
+  height: 85px;
+  width: 12px;
+  background-color: #005697;
+}
+
+#Sticktwo {
+  height: 85px;
+  width: 12px;
+  background-color: #785aca;
+  position: absolute;
+  right: 0;
+}
+
+#ball {
+  background-color: #ffffb9;
+  width: 15px;
+  height: 15px;
+  left: 460px;
+  top: 140px;
+  position: absolute;
+}
